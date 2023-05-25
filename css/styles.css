@@ -50,8 +50,8 @@ a {
 }
 
 .icon {
-  font-size: 40px;
-  color: iris;
+  font-size: 24px;
+  color: #fff;
 }
 /* START NAV SECTION */
 .top__nav {
@@ -121,7 +121,7 @@ a {
 /* START HERO SECTION */
 .hero__bg {
   height: 600px;
-  background-image: url(../images/people-office\ 1.png);
+  background-image: url(../images/people-office\ 1.jpg);
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: 1440px 600px;
@@ -257,17 +257,49 @@ a {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--text);
-  padding-bottom: 32px;
+  padding-bottom: 8px;
 }
 
 .team-card {
+  width: 264px;
+  height: 428px;
   background-color: var(--white-bg);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
 }
+.icon-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.icon-cont li {
+  padding-bottom: 32px;
+}
+.icon-card:before {
+  color: #fff;
+  font-size: 16px;
+}
+.social-list-link {
+  display: block;
+  background-color: #4d5ae5;
+  padding: 12px;
+  border-radius: 50%;
+}
 
 /* END OUR TEAM SECTION */
+.our-Custumers_heading {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--dark);
+  padding: 120px 0 72px 0;
+}
 /* START FOOTER SECTION */
 .footer__bg {
   height: 312px;
@@ -278,7 +310,8 @@ a {
 
 .container__footer {
   display: flex;
-  width: 1128px;
+  width: 1156px;
+  height: 112px;
   margin: 0 auto;
   gap: 120px;
 }
@@ -308,6 +341,7 @@ a {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
+  margin-top: 16px;
 }
 
 .footer__text__container {
@@ -315,12 +349,26 @@ a {
   flex-direction: column;
   gap: 16px;
 }
-
-.icon__cont__text {
+.social-heading {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #fff;
 }
-.icon__cont__footer {
+.footer-social-list-link {
+  display: block;
+  background-color: #4d5ae5;
+  padding: 8px;
+  border-radius: 50%;
+}
+.icon-cont-footer {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  margin-top: 16px;
+  gap: 16px;
   width: 208px;
   height: 40px;
 }
