@@ -22,8 +22,8 @@
   --modal-overlay: rgba(46, 47, 66, 0.4);
   --hero-bg: rgba(46, 47, 66, 0.7);
 }
-img{
-   display: block;
+img {
+  display: block;
 }
 
 ul {
@@ -340,4 +340,5 @@ body {
   width: 208px;
   height: 40px;
 }
+
 /* END FOOTER SECTION */
